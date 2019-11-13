@@ -1,0 +1,132 @@
+.nav-bar {
+  padding: 0.8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.9rem;
+}
+.carousel-item img {
+  height: 500px;
+  width: 100%;
+}
+
+.carousel-caption h1 {
+  text-shadow: 1px 1px 15px black;
+}
+
+.carousel-caption h3 {
+  text-shadow: 1px 1px 20px black;
+}
+
+.btn-primary {
+  background-color: black;
+}
+#btn-develop {
+  font-size: 1.7rem;
+}
+.jumbotron {
+  padding: 5rem;
+  border-radius: 0;
+}
+.padding {
+  padding-bottom: 2rem;
+}
+.w-header {
+  padding-top: 3rem;
+}
+.w-header h1 {
+  font-size: 4rem;
+  text-shadow: 1px 1px 15px grey;
+}
+.w-header hr {
+  border-top: 2px solid rgb(218, 211, 211);
+  width: 75%;
+}
+.fa-java {
+  color: rgb(185, 183, 63);
+}
+.fa-code {
+  color: rgb(173, 61, 61);
+}
+.fa-css3-alt {
+  color: red;
+}
+.fa-js-square {
+  color: orangered;
+}
+.fa-gem {
+  color: red;
+}
+.fa-java,
+.fa-python,
+.fa-code,
+.fa-css3-alt,
+.fa-js-square,
+.fa-gem {
+  font-size: 4rem;
+  margin: 4rem;
+}
+.social a {
+  padding: 6rem;
+  font-size: 4.5rem;
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-google-plus-g {
+  color: red;
+}
+.fa-youtube {
+  color: red;
+}
+/* .fa-facebook,
+fa-google-plus-g,
+fa-youtube {
+  margin-left: 4rem;
+  margin-right: 4rem;
+} */
+
+.fa-google-plus-g:hover {
+  color: rgb(90, 90, 16);
+}
+.fa-facebook:hover {
+  color: darkturquoise;
+}
+.fa-youtube:hover {
+  color: rgb(85, 68, 71);
+}
+footer {
+  background: rgb(28, 37, 46);
+  color: antiquewhite;
+}
+footer hr {
+  border-top: 1px solid antiquewhite;
+  width: 50%;
+  margin-top: 5rem;
+}
+.blockquote-footer {
+  background: white;
+}
+@media only screen and (max-width: 1199.98px) {
+  .carousel-item h1 {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 767.98px) {
+  .carousel-item h1 {
+    font-size: 2.3rem;
+  }
+  .maxim {
+    display: none;
+  }
+  #btn-develop {
+    font-size: 1rem;
+  }
+  .btn-primary {
+    font-size: 1rem;
+  }
+}
